@@ -1,3 +1,4 @@
+import {Services} from "./components/Services"
 import {About} from "./components/About"
 import Image from "next/image";
 import {Header} from "./components/Header"
@@ -10,8 +11,9 @@ export default function Home() {
       <main>
         <Hero />
         {/* You can add other sections of your page here */}
-      </main>
       <About/>
+      <Services/>
+      </main>
       
     </>
   );
