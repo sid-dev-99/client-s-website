@@ -18,7 +18,16 @@ export default function Footer() {
               <li><a href="#contact" className="hover:text-white">Contact</a></li>
             </ul>
           </div>
-         
+          <div>
+            <h2 className="text-lg font-semibold text-white mb-3">Contact</h2>
+            <p className="text-sm">📍 City, State</p>
+            <p className="text-sm">📞 +91 98765 43210</p>
+            <p className="text-sm">✉️ info@example.com</p>
+          </div>
+        </div>
+        <div className="border-t border-gray-700 mt-8 pt-4 text-center text-sm">
+          © {new Date().getFullYear()} Shri Gopal Krishna Sharma. All rights reserved.
+        </div>
       </div>
     </footer>
   );
