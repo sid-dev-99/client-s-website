@@ -29,7 +29,7 @@ const servicesData = [
     features: ['Naamkaran', 'Mundan', 'Janeu Sanskar'],
   },
   {
-    imageSrc: '/Services/vishnu.png',
+    imageSrc: '/Services/wellbeing.png',
     title: 'Pujas for Well-being',
     description: 'Specialized pujas like Mahamrityunjay Jaap and Grah Shanti to remove obstacles and attract health, wealth, and success.',
     features: ['Grah Shanti', 'Mahamrityunjay Jaap', 'Lakshmi Puja'],
@@ -44,7 +44,7 @@ const servicesData = [
 
 export const Services: FC = () => {
   return (
-    <section id="services" className="bg-white py-16 md:py-24">
+    <section id="services" className="bg-white ">
       <div className="container mx-auto px-6">
         {/* Section Heading with new luminous colors */}
         <div className="text-center mb-12 md:mb-16">

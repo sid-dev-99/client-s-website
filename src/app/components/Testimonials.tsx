@@ -49,7 +49,7 @@ const testimonials: Testimonial[] = [
 
 function Stars({ count = 5 }: { count?: number }) {
   return (
-    <div className="flex gap-1 text-amber-500 py-0">
+    <div className="flex gap-1 text-amber-400 py-0">
       {Array.from({ length: 5 }).map((_, i) => (
         <svg
           key={i}
@@ -95,7 +95,7 @@ export default function Testimonials() {
   }, [emblaApi]);
 
   return (
-    <section id="testimonials" className="py-20 bg-gradient-to-b from-orange-50 via-white to-orange-50">
+    <section id="testimonials" className="py-15 bg-gradient-to-b from-orange-50 via-white to-orange-50">
       <div className="mx-auto max-w-6xl px-6">
         {/* Heading */}
         <div className="text-center mb-12">
@@ -126,11 +126,11 @@ export default function Testimonials() {
               >
                 <div className="h-full rounded-2xl border border-orange-100 bg-white p-6 shadow-[0_10px_30px_-10px_rgba(234,88,12,0.25)]">
                   <div className="flex items-center gap-4">
-                    <img
+                    {/* <img
                       src={t.avatar ?? "/avatars/default.png"}
                       alt=""
                       className="h-12 w-12 rounded-full ring-2 ring-orange-100 object-cover"
-                    />
+                    /> */}
                     <div>
                       <p className="font-semibold text-orange-800">{t.name}</p>
                       <p className="text-sm text-orange-900/60">{t.location}</p>
