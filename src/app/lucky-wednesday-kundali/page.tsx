@@ -22,13 +22,13 @@ const LuckyWednesdayKundaliPage: FC = () => {
         <meta property="og:title" content="Free Kundali & Astrology Consultation | Lucky Wednesday with Pandit Ji" />
         <meta property="og:description" content="Enter for a chance to win a Free 30-minute Kundali & Astrology Consultation with Pandit Ji every Wednesday. Get personalized guidance for people across the world." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="YOUR_WEBSITE_URL/lucky-wednesday-kundali" />
+        <meta property="og:url" content="https://gopalguruji.com/lucky-wednesday-kundali" />
         <meta property="og:image" content="YOUR_WEBSITE_URL/lucky-wednesday-og.jpg" /> {/* Create a suitable image */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Free Kundali & Astrology Consultation | Lucky Wednesday with Pandit Ji" />
         <meta name="twitter:description" content="Enter for a chance to win a Free 30-minute Kundali & Astrology Consultation with Pandit Ji every Wednesday. Get personalized guidance for people across the world." />
         <meta name="twitter:image" content="YOUR_WEBSITE_URL/lucky-wednesday-twitter.jpg" /> {/* Create a suitable image */}
-        <link rel="canonical" href="YOUR_WEBSITE_URL/lucky-wednesday-kundali" />
+        <link rel="canonical" href="https://gopalguruji.com/lucky-wednesday-kundali" />
       </Head>
 
       <div className="min-h-screen bg-[#FFFDFB] flex flex-col">

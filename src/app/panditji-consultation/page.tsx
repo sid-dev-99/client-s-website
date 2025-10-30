@@ -21,13 +21,13 @@ const ConsultationPage: FC = () => {
         <meta property="og:title" content="Online Vedic Consultation | Kundali, Vastu, Gemstone by Expert Astrologer" />
         <meta property="og:description" content="Book a personalized online consultation with Pandit Gopal Krishna Sharma for Kundali, Vastu, and Gemstone guidance. Pay ₹501 for 30 mins via QR." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="YOUR_WEBSITE_URL/consultation" />
+        <meta property="og:url" content="https://gopalguruji.com/consultation" />
         <meta property="og:image" content="YOUR_WEBSITE_URL/consultation-og.jpg" /> {/* Create a suitable image */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Online Vedic Consultation | Kundali, Vastu, Gemstone by Expert Astrologer" />
         <meta name="twitter:description" content="Book a personalized online consultation with Pandit Gopal Krishna Sharma for Kundali, Vastu, and Gemstone guidance. Pay ₹501 for 30 mins via QR." />
         <meta name="twitter:image" content="YOUR_WEBSITE_URL/consultation-twitter.jpg" /> {/* Create a suitable image */}
-        <link rel="canonical" href="YOUR_WEBSITE_URL/consultation" />
+        <link rel="canonical" href="https://gopalguruji.com/consultation" />
       </Head>
 
       <div className="min-h-screen bg-[#FFFDFB] flex flex-col">

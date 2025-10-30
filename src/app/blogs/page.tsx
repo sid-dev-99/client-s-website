@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { getPaginatedPostsData, PaginatedBlogPosts, BlogPost } from '../libs/blog-utils';
 import BlogCard from '../components/BlogCard';
 
-const YOUR_WEBSITE_URL = 'https://www.yourwebsite.com'; // IMPORTANT: Update with your actual website URL
+const YOUR_WEBSITE_URL = 'https://gopalguruji.com'; // IMPORTANT: Update with your actual website URL
 const POSTS_PER_PAGE = 9;
 
 // Static metadata for the main blog listing page

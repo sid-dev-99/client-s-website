@@ -22,13 +22,13 @@ const VirtualPoojaPage: FC = () => {
         <meta property="og:title" content="Virtual Pooja Service | Book Online Pooja with Pandit Ji" />
         <meta property="og:description" content="Experience divine Virtual Pooja conducted by Pandit Ji. Submit details via form and receive blessings remotely." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="YOUR_WEBSITE_URL/virtual-pooja" />
+        <meta property="og:url" content="https://gopalguruji.com/virtual-pooja" />
         <meta property="og:image" content="YOUR_WEBSITE_URL/virtual-pooja-og.jpg" /> {/* Create a suitable image */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Virtual Pooja Service | Book Online Pooja with Pandit Ji" />
         <meta name="twitter:description" content="Experience divine Virtual Pooja conducted by Pandit Ji. Submit details via form and receive blessings remotely." />
         <meta name="twitter:image" content="YOUR_WEBSITE_URL/virtual-pooja-twitter.jpg" /> {/* Create a suitable image */}
-        <link rel="canonical" href="YOUR_WEBSITE_URL/virtual-pooja" />
+        <link rel="canonical" href="https://gopalguruji.com/virtual-pooja" />
       </Head>
 
       <div className="min-h-screen bg-[#FFFDFB] flex flex-col">

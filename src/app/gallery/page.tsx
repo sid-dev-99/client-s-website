@@ -151,7 +151,7 @@ const GalleryPage: FC = () => {
         <meta property="og:title" content="Gallery | Pandit Ji - Glimpses of Vedic Rituals & Services" />
         <meta property="og:description" content="Explore a visual gallery showcasing various Hindu Pujas, Vedic rituals, ceremonies, and spiritual moments led by Pandit Ji." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="YOUR_WEBSITE_URL/gallery" /> {/* Replace with your actual URL */}
+        <meta property="og:url" content="https://gopalguruji.com/gallery" /> {/* Replace with your actual URL */}
         <meta property="og:image" content="YOUR_WEBSITE_URL/og-gallery-image.jpg" /> {/* Replace with a suitable gallery overview image */}
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />

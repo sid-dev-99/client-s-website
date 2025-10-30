@@ -64,7 +64,7 @@ const ServicesPage: FC = () => {
         <meta property="og:title" content="Vedic Services | Pandit Ji - Astrology, Pujas, Ceremonies" />
         <meta property="og:description" content="Explore a comprehensive range of traditional Hindu Pujas, Vedic rituals, astrology consultations, and life milestone ceremonies offered by Pandit Ji." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="YOUR_WEBSITE_URL/services" /> {/* Replace with your actual URL */}
+        <meta property="og:url" content="https://gopalguruji.com/services" /> {/* Replace with your actual URL */}
         <meta property="og:image" content="YOUR_WEBSITE_URL/og-image.jpg" /> {/* Replace with a suitable image */}
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />

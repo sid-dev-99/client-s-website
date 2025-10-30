@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { FaWhatsapp } from 'react-icons/fa';
 import { getPostData, getAllPostSlugs, BlogPost } from '../../libs/blog-utils';
 
-const YOUR_WEBSITE_URL = 'https://www.yourwebsite.com'; // IMPORTANT: Update with your actual website URL
+const YOUR_WEBSITE_URL = 'https://gopalguruji.com'; // IMPORTANT: Update with your actual website URL
 
 // Helper to safely resolve params/searchParams
 async function resolveDynamicParam<T>(param: Promise<T> | T): Promise<T> {
