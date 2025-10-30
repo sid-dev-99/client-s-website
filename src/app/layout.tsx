@@ -25,10 +25,80 @@ const geistMono = Geist_Mono({
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const lora = Lora({ subsets: ['latin'], variable: '--font-lora' });
 
+// Highly SEO-optimized metadata
 export const metadata: Metadata = {
-  title: "Vedic Sadhana - Pandit Gopal Krishna Sharma", // Update your site title
-  description: "Experienced Pandit offering Vedic Pujas, Astrological consultations, Vastu Shastra, and spiritual guidance for a harmonious life.", // Update your site description
-  // Add more default SEO metadata here as needed for the entire site
+  // Primary SEO: Title & Description
+  title: {
+    default: "Pandit Gopal Krishna Sharma | Authentic Vedic Pujas, Astrology & Vastu Services", // Default title for pages without a specific title
+    template: "%s | Pandit Gopal Krishna Sharma - Vedic Services", // Template for page-specific titles
+  },
+  description: "Experienced Pandit Gopal Krishna Sharma offers authentic Vedic Pujas, personalized Astrological consultations, Vastu Shastra remedies, and profound spiritual guidance online and in Indore, Ujjain. Achieve harmony and prosperity.",
+  
+  // Keywords (while less critical, still good practice)
+  keywords: [
+    "Pandit Gopal Krishna Sharma",
+    "Vedic Pandit",
+    "Online Puja",
+    "Astrology Consultation",
+    "Vastu Shastra",
+    "Hindu Rituals",
+    "Horoscope Reading",
+    "Spiritual Guidance",
+    "Vedic Services",
+    "Puja Services Indore",
+    "Astrologer Ujjain",
+    "Gopal Krishna Sharma",
+    "Jyotish",
+    "Muhurat",
+    "Karma Correction",
+    "Religious Ceremonies",
+    "Indian Priest",
+    "Best Pandit",
+    "Vedic Knowledge",
+    "Dharma",
+    "Spirituality",
+    "Personalized Puja",
+    "Graha Shanti",
+    "Dosha Nivaran",
+    "Indore Priest",
+    "Ujjain Pandit"
+  ],
+
+  // Canonical URL (IMPORTANT for preventing duplicate content issues)
+  alternates: {
+    canonical: "https://www.gopalguruji.com/", // Updated to your domain
+  },
+
+  // Open Graph (for social media sharing)
+  openGraph: {
+    title: "Pandit Gopal Krishna Sharma | Authentic Vedic Pujas, Astrology & Vastu",
+    description: "Experienced Pandit Gopal Krishna Sharma offers authentic Vedic Pujas, personalized Astrological consultations, Vastu Shastra remedies, and profound spiritual guidance online and in Indore, Ujjain. Achieve harmony and prosperity.",
+    url: "https://www.gopalguruji.com/", // Updated to your domain
+    siteName: "Pandit Gopal Krishna Sharma - Online Vedic Pandit for Puja, Astrology & Vastu",
+    locale: "en_IN", // Specify locale if primarily targeting India
+    type: "website", // Or 'article' if it's a blog post, but 'website' for default
+  },
+
+  // Apple Web App Meta (for iOS devices saving to home screen)
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "Pandit Gopal Krishna Sharma",
+    // startUpImage: [], // If you have specific startup images
+  },
+
+  // Verification (for proving ownership to search engines)
+  verification: {
+    google: "YOUR_GOOGLE_VERIFICATION_CODE", // Get from Google Search Console for gopalguruji.com
+    // yandex: "YOUR_YANDEX_VERIFICATION_CODE", // If you use Yandex
+    // yahoo: "YOUR_YAHOO_VERIFICATION_CODE", // If you use Yahoo
+    // other: {
+    //   me: ["your-email@example.com"],
+    // },
+  },
+  
+  // Application name (can appear in some search results or browser tabs)
+  applicationName: "Pandit Gopal Krishna Sharma - Vedic Sadhana",
 };
 
 export default function RootLayout({
