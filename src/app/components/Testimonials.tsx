@@ -4,6 +4,7 @@ import React, { useRef, useEffect, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 
+
 type Testimonial = {
   name: string;
   location: string;
@@ -76,7 +77,7 @@ export default function Testimonials() {
 
   // speed: lower = snappier transitions
   const [emblaRef, emblaApi] = useEmblaCarousel(
-    { loop: true, align: "start", speed: 5, containScroll: "trimSnaps" },
+    { loop: true, align: "start", containScroll: "trimSnaps" },
     [autoplay.current]
   );
 
@@ -95,7 +96,7 @@ export default function Testimonials() {
   }, [emblaApi]);
 
   return (
-    <section id="testimonials" className="py-15 bg-gradient-to-b from-orange-50 via-white to-orange-50">
+    <section id="testimonials" className="py-12 bg-gradient-to-b from-orange-50 via-white to-orange-50">
       <div className="mx-auto max-w-6xl px-6">
         {/* Heading */}
         <div className="text-center mb-12">

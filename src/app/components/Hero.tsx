@@ -3,6 +3,7 @@
 import type { FC } from "react";
 import Image from "next/image";
 // import Link from "next/link"; // We no longer need Link here for "View Services"
+import {LuckyWednesdaySticker} from './LuckyWednesdaySticker'
 
 interface HeroProps {
   onBookConsultationClick: () => void;
@@ -18,7 +19,8 @@ export const Hero: FC<HeroProps> = ({ onBookConsultationClick }) => {
   };
 
   return (
-    <section className="bg-[#FFF8F1] py-12 lg:py-20">
+    <div>
+    <section className="bg-[#FFF8F1] py-12 lg:py-12">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
@@ -32,7 +34,7 @@ export const Hero: FC<HeroProps> = ({ onBookConsultationClick }) => {
             </h1>
 
             <h2 className="text-2xl font-semibold text-[#FF9500] mb-8">
-              Your Trusted Vedic Pandit for Online Puja, Astrology & Vastu Consultations
+              Your Trusted Vedic Pandit for Puja, Astrology & Vastu Consultations
             </h2>
 
             <div className="my-8 lg:hidden">
@@ -49,7 +51,7 @@ export const Hero: FC<HeroProps> = ({ onBookConsultationClick }) => {
 
             <div className="text-[#4A2E2A]/90 text-lg text-left leading-relaxed space-y-6 mb-8 max-w-xl mx-auto lg:mx-0">
               <p>
-                Hailing from the sacred city of Ujjain and now serving devotees in Indore, Pandit Gopal Krishna Sharma brings over 20 years of profound experience in authentic Vedic traditions. Having guided more than 10,000 families, his wisdom is rooted in deep spiritual practice and a commitment to providing genuine solutions.
+                Hailing from the sacred city of Ujjain and now serving devotees in Indore, Pandit Gopal Krishna Sharma brings over 25 years of profound experience in authentic Vedic traditions. Having guided more than 10,000 families, his wisdom is rooted in deep spiritual practice and a commitment to providing genuine solutions.
               </p>
               <p>
                 Specializing in a wide array of Vedic rituals, Pandit Ji performs all types of pujas, including powerful dosh nivaran ceremonies, Vastu Shanti for homes and offices, and determining auspicious muhurats. Renowned for his highly accurate astrological predictions, he offers expert guidance for life's most important questions, available for both in-person ceremonies and online consultations.
@@ -102,5 +104,7 @@ export const Hero: FC<HeroProps> = ({ onBookConsultationClick }) => {
         </div>
       </div>
     </section>
+      {/* <LuckyWednesdaySticker/> */}
+    </div>
   );
 };

@@ -1,0 +1,5 @@
+# public/robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: YOUR_WEBSITE_URL/sitemap.xml # !!! IMPORTANT: Update this !!!
