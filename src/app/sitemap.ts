@@ -2,7 +2,7 @@
 import { MetadataRoute } from 'next';
 import { getSortedPostsData, BlogPost } from './libs/blog-utils'; // Adjust path
 
-const YOUR_WEBSITE_URL = 'YOUR_WEBSITE_URL'; // !!! IMPORTANT: Update this !!!
+const YOUR_WEBSITE_URL = 'https://gopalguruji.com'; // !!! IMPORTANT: Update this !!!
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const posts: BlogPost[] = await getSortedPostsData();
