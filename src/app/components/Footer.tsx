@@ -136,8 +136,7 @@ export const Footer: FC = () => {
         <div className="border-t border-white/30 mt-8 pt-4 text-center text-white/70 text-xs md:text-sm"> {/* Reduced mobile mt and pt, smaller text */}
           <p>&copy; {currentYear} Pandit Gopal Krishna Sharma. All rights reserved.</p>
           <div className="flex flex-wrap justify-center gap-x-3 gap-y-1 mt-1.5"> {/* Reduced mobile gap and mt */}
-            <Link href="/privacy-policy" className="hover:text-white transition-colors duration-200">Privacy Policy</Link>
-            <Link href="/terms-of-service" className="hover:text-white transition-colors duration-200">Terms of Service</Link>
+           
           </div>
         </div>
       </div>
