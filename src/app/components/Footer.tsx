@@ -62,7 +62,7 @@ export const Footer: FC = () => {
             <ul className="space-y-2"> {/* Reduced mobile space-y */}
               <li><Link href="/" className="text-white/90 hover:text-white font-medium transition-colors duration-200 text-sm md:text-base">Home</Link></li> {/* Adjusted mobile text size */}
               <li><Link href="/services" className="text-white/90 hover:text-white font-medium transition-colors duration-200 text-sm md:text-base">Services</Link></li>
-              <li><Link href="/about" className="text-white/90 hover:text-white font-medium transition-colors duration-200 text-sm md:text-base">About Pandit Ji</Link></li>
+              <li><Link href="/about-panditji" className="text-white/90 hover:text-white font-medium transition-colors duration-200 text-sm md:text-base">About Pandit Ji</Link></li>
               <li><Link href="/blogs" className="text-white/90 hover:text-white font-medium transition-colors duration-200 text-sm md:text-base">Blogs</Link></li>
              
             </ul>
