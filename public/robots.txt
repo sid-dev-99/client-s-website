@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gopalguruji.com/sitemap.xml # !!! IMPORTANT: Update this !!!
+Sitemap: https://gopalguruji.com/sitemap.xml
