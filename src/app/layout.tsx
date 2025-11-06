@@ -109,6 +109,9 @@ export default function RootLayout({
   return (
     // Combine font variables for all fonts you intend to use globally
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${lora.variable}`}>
+      <head>
+        <meta name="msvalidate.01" content="F845A5DF2133381CD414620B0EE3C0E1" />
+      </head>
       <body className={`antialiased`}> {/* Removed the Geist class from body directly */}
         {/*
           This div ensures Header and Footer are sticky (at top/bottom)
