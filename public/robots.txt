@@ -1,5 +1,9 @@
-# public/robots.txt
+# *
 User-agent: *
 Allow: /
 
+# Host
+Host: https://gopalguruji.com
+
+# Sitemaps
 Sitemap: https://gopalguruji.com/sitemap.xml
