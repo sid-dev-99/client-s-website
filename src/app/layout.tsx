@@ -6,9 +6,9 @@ import { Inter, Lora } from 'next/font/google'; // Your previously used fonts
 
 import "./globals.css"; // Your global styles
 import { Toaster } from "react-hot-toast"; // For global toasts
-import { Analytics } from "@vercel/analytics/react";
 import { Header } from "./components/Header"; // Import your Header component
 import { Footer } from "./components/Footer"; // Import your Footer component
+import AnalyticsClient from "./components/AnalyticsClient";
 import CallWhatsappSticker from './components/CallWhatsappSticker'; // Import the new sticker component
 // add near the top of app/layout.tsx
 export const metadataBase = new URL('https://gopalguruji.com');
@@ -64,7 +64,12 @@ export const metadata: Metadata = {
     "Graha Shanti",
     "Dosha Nivaran",
     "Indore Priest",
-    "Ujjain Pandit"
+    "Ujjain Pandit",
+    "pandits in indore",
+    "pandit in indore",
+    "pandit for kal-sarp-pooja",
+    "pandit for mangla-shanti-pooja",
+    "pandit for pitra-dosh-pooja"
   ],
 
  
@@ -124,7 +129,7 @@ export default function RootLayout({
           </main>
           <Footer /> {/* Your global Footer */}
           <CallWhatsappSticker />
-          <Analytics/> 
+          <AnalyticsClient/> 
         </div>
       </body>
     </html>
