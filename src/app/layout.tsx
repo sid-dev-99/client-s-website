@@ -10,6 +10,9 @@ import { Toaster } from "react-hot-toast"; // For global toasts
 import { Header } from "./components/Header"; // Import your Header component
 import { Footer } from "./components/Footer"; // Import your Footer component
 import CallWhatsappSticker from './components/CallWhatsappSticker'; // Import the new sticker component
+// add near the top of app/layout.tsx
+export const metadataBase = new URL('https://gopalguruji.com');
+
 
 // Initialize your fonts
 const geistSans = Geist({
@@ -64,11 +67,7 @@ export const metadata: Metadata = {
     "Ujjain Pandit"
   ],
 
-  // Canonical URL (IMPORTANT for preventing duplicate content issues)
-  alternates: {
-    canonical: "https://www.gopalguruji.com/", // Updated to your domain
-  },
-
+ 
   // Open Graph (for social media sharing)
   openGraph: {
     title: "Pandit Gopal Krishna Sharma | Authentic Vedic Pujas, Astrology & Vastu",

@@ -27,8 +27,8 @@ const Aboutpage: FC = () => {
         <meta property="og:url" content="https://gopalguruji.com/about" /> {/* IMPORTANT: Replace with your actual live URL */}
         <meta property="og:image" content="YOUR_WEBSITE_URL/about.jpeg" /> {/* Replace with a high-quality image of Pandit Ji */}
         {/* Twitter Card for social sharing */}
-        <meta name="twitter:title" content="About Pandit Gopal Krishna Sharma | Top Astrologer & Vedic Purohit in Ujjain & Indore" />
-        <meta name="twitter:description" content="Discover Pandit Gopal Krishna Sharma Ji, a highly respected Vedic Pandit and astrologer from Ujjain with over 25 years experience in authentic pujas and astrology across Central India." />
+        <meta name="facebook:title" content="About Pandit Gopal Krishna Sharma | Top Astrologer & Vedic Purohit in Ujjain & Indore" />
+        <meta name="facebook:description" content="Discover Pandit Gopal Krishna Sharma Ji, a highly respected Vedic Pandit and astrologer from Ujjain with over 25 years experience in authentic pujas and astrology across Central India." />
         <meta name="twitter:image" content="YOUR_WEBSITE_URL/twitter-pandit-gopal-sharma.jpg" /> {/* Replace with a high-quality image of Pandit Ji */}
         {/* Canonical Link (Self-referencing for SEO) */}
         <link rel="canonical" href=" https://gopalguruji.com/about" /> {/* IMPORTANT: Replace with your actual live URL */}
