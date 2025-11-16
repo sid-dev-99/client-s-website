@@ -6,7 +6,7 @@ import { Inter, Lora } from 'next/font/google'; // Your previously used fonts
 
 import "./globals.css"; // Your global styles
 import { Toaster } from "react-hot-toast"; // For global toasts
-
+import { Analytics } from "@vercel/analytics/react";
 import { Header } from "./components/Header"; // Import your Header component
 import { Footer } from "./components/Footer"; // Import your Footer component
 import CallWhatsappSticker from './components/CallWhatsappSticker'; // Import the new sticker component
@@ -123,7 +123,8 @@ export default function RootLayout({
             {children} {/* This is where your page content (like HomePage, BlogsPage) will be rendered */}
           </main>
           <Footer /> {/* Your global Footer */}
-          <CallWhatsappSticker /> {/* <--- Add the sticker component here */}
+          <CallWhatsappSticker />
+          <Analytics/> 
         </div>
       </body>
     </html>
